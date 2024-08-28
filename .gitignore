@@ -1,3 +1,4 @@
 # Ignore virtual environment folder
 venv/
 input_files/*.mp4
+input_files/output_clip
