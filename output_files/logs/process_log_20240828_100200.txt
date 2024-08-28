@@ -1,0 +1,9 @@
+[08/28/2024 10:02:00] Starting process for video 1, crop 1 with duration 17 seconds
+[08/28/2024 10:02:05] Finished processing video 1, crop 1. Duration: 4.8493462 seconds
+[08/28/2024 10:02:05] Starting process for video 1, crop 2 with duration 29 seconds
+[08/28/2024 10:02:10] Finished processing video 1, crop 2. Duration: 4.756149 seconds
+[08/28/2024 10:02:10] Starting process for video 1, crop 3 with duration 13 seconds
+[08/28/2024 10:02:15] Finished processing video 1, crop 3. Duration: 4.7215985 seconds
+[08/28/2024 10:02:15] Starting process for video 1, crop 4 with duration 20 seconds
+[08/28/2024 10:02:19] Finished processing video 1, crop 4. Duration: 4.6507068 seconds
+[08/28/2024 10:02:19] Starting process for video 1, crop 5 with duration 15 seconds
