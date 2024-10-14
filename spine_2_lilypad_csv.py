@@ -17,7 +17,7 @@ from shape_processing import get_estimated_shape
 
 
 
-os.chdir(r"F:/edge_consistency_v1/output_files/final")
+os.chdir(r"F:/Real2Sim/output_files/final")
 
 
 def initialize_csv_files(x_file, y_file):

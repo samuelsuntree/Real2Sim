@@ -70,7 +70,7 @@ Modules Overview:
 
 # Project path
 #os.chdir("C:/Users/Thomas Omarini/Documents/1 Stage_poisson/machine_perso/edge_consistency")
-os.chdir("F:/edge_consistency_v1")
+os.chdir("F:/Real2Sim")
 
 # YOLO model path
 model = YOLO("input_files/best.pt")
@@ -81,8 +81,8 @@ model = YOLO("input_files/best.pt")
 
 
 # # Generated data path
-# temporary_files_path = r"F:/edge_consistency_v1/output_files/tmp/"
-# final_output_path = r"F:/edge_consistency_v1/output_files/final/"
+# temporary_files_path = r"F:/Real2Sim/output_files/tmp/"
+# final_output_path = r"F:/Real2Sim/output_files/final/"
 
 
 # # Time of interest in the video
@@ -106,7 +106,7 @@ video_file = f"{crop_number}.mp4"  # Set the filename based on the passed numeri
 path_to_vid = os.path.join(video_folder, video_file)
 
 # Generate data paths
-base_output_path = f"F:/edge_consistency_v1/output_files/{video_number}/{crop_number}"
+base_output_path = f"F:/Real2Sim/output_files/{video_number}/{crop_number}"
 temporary_files_path = os.path.join(base_output_path, "tmp/")
 final_output_path = os.path.join(base_output_path, "final/")
 
