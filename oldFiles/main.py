@@ -91,46 +91,46 @@ model = YOLO("input_files/best.pt")
 # end_ToI = 3#2*60 + 48 #1*60 + 56#13*60+24 # 14*60 + 2 #
 
 
-# Get the arguments passed via the command line
+# 获取命令行传递的参数
 if len(sys.argv) < 4:
     print("Please provide the video number, crop number, and video duration as arguments.")
     sys.exit(1)
 
-video_number = sys.argv[1]  # Get the numeric argument (video number)
-crop_number = sys.argv[2]   # Get the numeric argument (crop number)
-video_duration = float(sys.argv[3])  # Get the actual duration of the video
+video_number = sys.argv[1]  # 获取传入的数字参数（视频编号）
+crop_number = sys.argv[2]   # 获取传入的数字参数（crop 编号）
+video_duration = float(sys.argv[3])  # 获取视频的实际时长
 
-# Parameterize the input video path
+# 参数化输入视频路径
 video_folder = f"E:/fishlabel/videos(origin and converted)/output_clip/{video_number}"
-video_file = f"{crop_number}.mp4"  # Set the filename based on the passed numeric argument
+video_file = f"{crop_number}.mp4"  # 根据传入的数字参数设置文件名
 path_to_vid = os.path.join(video_folder, video_file)
 
-# Generate data paths
+# 生成数据路径
 base_output_path = f"F:/edge_consistency_v1/output_files/{video_number}/{crop_number}"
 temporary_files_path = os.path.join(base_output_path, "tmp/")
 final_output_path = os.path.join(base_output_path, "final/")
 
-# Create the necessary directories
+# 创建必要的目录
 os.makedirs(temporary_files_path, exist_ok=True)
 os.makedirs(final_output_path, exist_ok=True)
 
 # ======================================================
 # Time of interest in the video
 
-start_ToI = 0  # Start time
-end_ToI = video_duration  # End time
+start_ToI = 0  # 开始时间
+end_ToI = video_duration  # 结束时间
 
-# # Read video duration to determine end_ToI
+# # 读取视频时长以确定 end_ToI
 # vidcap = cv2.VideoCapture(path_to_vid)
 # if vidcap.isOpened() is False:
 #     print(f"Can't load the input video {video_file}")
 #     quit()
 
-# # Get the frame rate and total frame count of the video
+# # 获取视频的帧率和总帧数
 # fps = vidcap.get(cv2.CAP_PROP_FPS)
 # total_frames = vidcap.get(cv2.CAP_PROP_FRAME_COUNT)
 
-# # Calculate video duration (seconds)
+# # 计算视频时长（秒）
 # duration = total_frames / fps
 # end_ToI = duration
 
