@@ -1,0 +1,215 @@
+[2025-01-21 19:57:50.160775] INFO: Starting Julia script.
+[2025-01-21 19:57:50.160775] CMD: julia Swimmer_Pipeline.jl 1 24 27.5
+
+[STDOUT]
+=======================================================================
+External a3 passed in:           27.5
+Internal duration (size(x,2)):   18.6
+Absolute difference:             8.899999999999999
+Relative difference:             32.36 %
+=======================================================================
+Start simulation...0.0Start simulation...
+tU/L=0.0, Δt=0.25
+tU/L=0.1, Δt=10.0
+tU/L=0.2, Δt=10.0
+tU/L=0.3, Δt=10.0
+tU/L=0.4, Δt=10.0
+tU/L=0.5, Δt=10.0
+tU/L=0.6, Δt=10.0
+tU/L=0.7, Δt=10.0
+tU/L=0.8, Δt=10.0
+tU/L=0.9, Δt=10.0
+tU/L=1.0, Δt=10.0
+tU/L=1.1, Δt=10.0
+tU/L=1.2, Δt=10.0
+tU/L=1.3, Δt=3.015
+tU/L=1.4, Δt=3.015
+tU/L=1.5, Δt=3.015
+tU/L=1.6, Δt=NaN
+tU/L=1.7, Δt=NaN
+tU/L=1.8, Δt=NaN
+tU/L=1.9, Δt=NaN
+tU/L=2.0, Δt=NaN
+tU/L=2.1, Δt=NaN
+tU/L=2.2, Δt=NaN
+tU/L=2.3, Δt=NaN
+tU/L=2.4, Δt=NaN
+tU/L=2.5, Δt=NaN
+tU/L=2.6, Δt=NaN
+tU/L=2.7, Δt=NaN
+tU/L=2.8, Δt=NaN
+tU/L=2.9, Δt=NaN
+tU/L=3.0, Δt=NaN
+tU/L=3.1, Δt=NaN
+tU/L=3.2, Δt=NaN
+tU/L=3.3, Δt=NaN
+tU/L=3.4, Δt=NaN
+tU/L=3.5, Δt=NaN
+tU/L=3.6, Δt=NaN
+tU/L=3.7, Δt=NaN
+tU/L=3.8, Δt=NaN
+tU/L=3.9, Δt=NaN
+tU/L=4.0, Δt=NaN
+tU/L=4.1, Δt=NaN
+tU/L=4.2, Δt=NaN
+tU/L=4.3, Δt=NaN
+tU/L=4.4, Δt=NaN
+tU/L=4.5, Δt=NaN
+tU/L=4.6, Δt=NaN
+tU/L=4.7, Δt=NaN
+tU/L=4.8, Δt=NaN
+tU/L=4.9, Δt=NaN
+tU/L=5.0, Δt=NaN
+tU/L=5.1, Δt=NaN
+tU/L=5.2, Δt=NaN
+tU/L=5.3, Δt=NaN
+tU/L=5.4, Δt=NaN
+tU/L=5.5, Δt=NaN
+tU/L=5.6, Δt=NaN
+tU/L=5.7, Δt=NaN
+tU/L=5.8, Δt=NaN
+tU/L=5.9, Δt=NaN
+tU/L=6.0, Δt=NaN
+tU/L=6.1, Δt=NaN
+tU/L=6.2, Δt=NaN
+tU/L=6.3, Δt=NaN
+tU/L=6.4, Δt=NaN
+tU/L=6.5, Δt=NaN
+tU/L=6.6, Δt=NaN
+tU/L=6.7, Δt=NaN
+tU/L=6.8, Δt=NaN
+tU/L=6.9, Δt=NaN
+tU/L=7.0, Δt=NaN
+tU/L=7.1, Δt=NaN
+tU/L=7.2, Δt=NaN
+tU/L=7.3, Δt=NaN
+tU/L=7.4, Δt=NaN
+tU/L=7.5, Δt=NaN
+tU/L=7.6, Δt=NaN
+tU/L=7.7, Δt=NaN
+tU/L=7.8, Δt=NaN
+tU/L=7.9, Δt=NaN
+tU/L=8.0, Δt=NaN
+tU/L=8.1, Δt=NaN
+tU/L=8.2, Δt=NaN
+tU/L=8.3, Δt=NaN
+tU/L=8.4, Δt=NaN
+tU/L=8.5, Δt=NaN
+tU/L=8.6, Δt=NaN
+tU/L=8.7, Δt=NaN
+tU/L=8.8, Δt=NaN
+tU/L=8.9, Δt=NaN
+tU/L=9.0, Δt=NaN
+tU/L=9.1, Δt=NaN
+tU/L=9.2, Δt=NaN
+tU/L=9.3, Δt=NaN
+tU/L=9.4, Δt=NaN
+tU/L=9.5, Δt=NaN
+tU/L=9.6, Δt=NaN
+tU/L=9.7, Δt=NaN
+tU/L=9.8, Δt=NaN
+tU/L=9.9, Δt=NaN
+tU/L=10.0, Δt=NaN
+tU/L=10.1, Δt=NaN
+tU/L=10.2, Δt=NaN
+tU/L=10.3, Δt=NaN
+tU/L=10.4, Δt=NaN
+tU/L=10.5, Δt=NaN
+tU/L=10.6, Δt=NaN
+tU/L=10.7, Δt=NaN
+tU/L=10.8, Δt=NaN
+tU/L=10.9, Δt=NaN
+tU/L=11.0, Δt=NaN
+tU/L=11.1, Δt=NaN
+tU/L=11.2, Δt=NaN
+tU/L=11.3, Δt=NaN
+tU/L=11.4, Δt=NaN
+tU/L=11.5, Δt=NaN
+tU/L=11.6, Δt=NaN
+tU/L=11.7, Δt=NaN
+tU/L=11.8, Δt=NaN
+tU/L=11.9, Δt=NaN
+tU/L=12.0, Δt=NaN
+tU/L=12.1, Δt=NaN
+tU/L=12.2, Δt=NaN
+tU/L=12.3, Δt=NaN
+tU/L=12.4, Δt=NaN
+tU/L=12.5, Δt=NaN
+tU/L=12.6, Δt=NaN
+tU/L=12.7, Δt=NaN
+tU/L=12.8, Δt=NaN
+tU/L=12.9, Δt=NaN
+tU/L=13.0, Δt=NaN
+tU/L=13.1, Δt=NaN
+tU/L=13.2, Δt=NaN
+tU/L=13.3, Δt=NaN
+tU/L=13.4, Δt=NaN
+tU/L=13.5, Δt=NaN
+tU/L=13.6, Δt=NaN
+tU/L=13.7, Δt=NaN
+tU/L=13.8, Δt=NaN
+tU/L=13.9, Δt=NaN
+tU/L=14.0, Δt=NaN
+tU/L=14.1, Δt=NaN
+tU/L=14.2, Δt=NaN
+tU/L=14.3, Δt=NaN
+tU/L=14.4, Δt=NaN
+tU/L=14.5, Δt=NaN
+tU/L=14.6, Δt=NaN
+tU/L=14.7, Δt=NaN
+tU/L=14.8, Δt=NaN
+tU/L=14.9, Δt=NaN
+tU/L=15.0, Δt=NaN
+tU/L=15.1, Δt=NaN
+tU/L=15.2, Δt=NaN
+tU/L=15.3, Δt=NaN
+tU/L=15.4, Δt=NaN
+tU/L=15.5, Δt=NaN
+tU/L=15.6, Δt=NaN
+tU/L=15.7, Δt=NaN
+tU/L=15.8, Δt=NaN
+tU/L=15.9, Δt=NaN
+tU/L=16.0, Δt=NaN
+tU/L=16.1, Δt=NaN
+tU/L=16.2, Δt=NaN
+tU/L=16.3, Δt=NaN
+tU/L=16.4, Δt=NaN
+tU/L=16.5, Δt=NaN
+tU/L=16.6, Δt=NaN
+tU/L=16.7, Δt=NaN
+tU/L=16.8, Δt=NaN
+tU/L=16.9, Δt=NaN
+tU/L=17.0, Δt=NaN
+tU/L=17.1, Δt=NaN
+tU/L=17.2, Δt=NaN
+tU/L=17.3, Δt=NaN
+tU/L=17.4, Δt=NaN
+tU/L=17.5, Δt=NaN
+tU/L=17.6, Δt=NaN
+tU/L=17.7, Δt=NaN
+tU/L=17.8, Δt=NaN
+tU/L=17.9, Δt=NaN
+tU/L=18.0, Δt=NaN
+tU/L=18.1, Δt=NaN
+tU/L=18.2, Δt=NaN
+tU/L=18.3, Δt=NaN
+tU/L=18.4, Δt=NaN
+tU/L=18.5, Δt=NaN
+tU/L=18.6, Δt=NaN
+
+[STDERR]
+The latest version of Julia in the `1.10` channel is 1.10.7+0.x64.w64.mingw32. You currently have `1.10.5+0.x64.w64.mingw32` installed. Run:
+
+  juliaup update
+
+in your terminal shell to install Julia 1.10.7+0.x64.w64.mingw32 and update the `1.10` channel to that version.
+┌ Warning: 
+│ Using WaterLily in serial (ie. JULIA_NUM_THREADS=1) is not recommended because it disables the GPU backend and defaults to serial CPU.
+│ Use JULIA_NUM_THREADS=auto, or any number of threads greater than 1, to allow multi-threading in CPU or GPU backends.
+└ @ WaterLily C:\Users\10521\.julia\packages\WaterLily\cb8Tk\src\WaterLily.jl:152
+┌ Warning: Warning: The difference exceeds 10%!
+└ @ Main C:\Users\10521\Documents\GitHub\Real2Sim\P2ResimSplit\Swimmer_Pipeline.jl:49
+WARNING: using Interpolations.scale in module Main conflicts with an existing identifier.
+[ Info: Saved animation to C:\Users\10521\AppData\Local\Temp\jl_0POdst4ta1.gif
+
+[2025-01-21 19:58:53.844198] INFO: Finished successfully. Elapsed=63.68 seconds.

@@ -1,0 +1,30 @@
+[2025-01-21 19:53:36.432492] INFO: Starting Julia script.
+[2025-01-21 19:53:36.432492] CMD: julia Swimmer_Pipeline.jl 1 19 40.0
+
+[ERROR] Julia script exited with a non-zero status.
+[ERROR] Return code: 1
+[ERROR] STDOUT:
+
+[ERROR] STDERR:
+The latest version of Julia in the `1.10` channel is 1.10.7+0.x64.w64.mingw32. You currently have `1.10.5+0.x64.w64.mingw32` installed. Run:
+
+  juliaup update
+
+in your terminal shell to install Julia 1.10.7+0.x64.w64.mingw32 and update the `1.10` channel to that version.
+┌ Warning: 
+│ Using WaterLily in serial (ie. JULIA_NUM_THREADS=1) is not recommended because it disables the GPU backend and defaults to serial CPU.
+│ Use JULIA_NUM_THREADS=auto, or any number of threads greater than 1, to allow multi-threading in CPU or GPU backends.
+└ @ WaterLily C:\Users\10521\.julia\packages\WaterLily\cb8Tk\src\WaterLily.jl:152
+ERROR: LoadError: ArgumentError: "C:/Users/10521/Documents/GitHub/Real2Sim/P1VideoCapture/output_files/1/19/final/x.csv" is not a valid file or doesn't exist
+Stacktrace:
+ [1] CSV.Context(source::CSV.Arg, header::CSV.Arg, normalizenames::CSV.Arg, datarow::CSV.Arg, skipto::CSV.Arg, footerskip::CSV.Arg, transpose::CSV.Arg, comment::CSV.Arg, ignoreemptyrows::CSV.Arg, ignoreemptylines::CSV.Arg, select::CSV.Arg, drop::CSV.Arg, limit::CSV.Arg, buffer_in_memory::CSV.Arg, threaded::CSV.Arg, ntasks::CSV.Arg, tasks::CSV.Arg, rows_to_check::CSV.Arg, lines_to_check::CSV.Arg, missingstrings::CSV.Arg, missingstring::CSV.Arg, delim::CSV.Arg, ignorerepeated::CSV.Arg, quoted::CSV.Arg, quotechar::CSV.Arg, openquotechar::CSV.Arg, closequotechar::CSV.Arg, escapechar::CSV.Arg, dateformat::CSV.Arg, dateformats::CSV.Arg, decimal::CSV.Arg, groupmark::CSV.Arg, truestrings::CSV.Arg, falsestrings::CSV.Arg, stripwhitespace::CSV.Arg, type::CSV.Arg, types::CSV.Arg, typemap::CSV.Arg, pool::CSV.Arg, downcast::CSV.Arg, lazystrings::CSV.Arg, stringtype::CSV.Arg, strict::CSV.Arg, silencewarnings::CSV.Arg, maxwarnings::CSV.Arg, debug::CSV.Arg, parsingdebug::CSV.Arg, validate::CSV.Arg, streaming::CSV.Arg)
+   @ CSV C:\Users\10521\.julia\packages\CSV\XLcqT\src\context.jl:314
+ [2] #File#32
+   @ C:\Users\10521\.julia\packages\CSV\XLcqT\src\file.jl:222 [inlined]
+ [3] read(source::String, sink::Type; copycols::Bool, kwargs::@Kwargs{header::Bool})
+   @ CSV C:\Users\10521\.julia\packages\CSV\XLcqT\src\CSV.jl:117
+ [4] top-level scope
+   @ C:\Users\10521\Documents\GitHub\Real2Sim\P2ResimSplit\Swimmer_Pipeline.jl:19
+in expression starting at C:\Users\10521\Documents\GitHub\Real2Sim\P2ResimSplit\Swimmer_Pipeline.jl:19
+
+[2025-01-21 19:53:45.558608] ERROR: Process failed. Elapsed=9.13 seconds.

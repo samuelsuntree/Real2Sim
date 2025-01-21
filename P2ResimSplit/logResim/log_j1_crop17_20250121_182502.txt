@@ -1,0 +1,16 @@
+[2025-01-21 18:25:02.338728] INFO: Starting Julia script.
+[2025-01-21 18:25:02.338728] CMD: julia Swimmer_Pipeline.jl 1 17 27.5
+
+[ERROR] The process exceeded the time limit (15 minutes).
+[ERROR] Partial STDOUT/STDERR:
+=======================================================================
+External a3 passed in:           27.5
+Internal duration (size(x,2)):   8.2
+Absolute difference:             19.3
+Relative difference:             70.18 %
+=======================================================================
+Start simulation...0.0Start simulation...
+tU/L=0.0, Δt=0.25
+tU/L=0.1, Δt=10.0
+
+[2025-01-21 18:40:02.393667] ERROR: Timeout. Elapsed=900.05 seconds.

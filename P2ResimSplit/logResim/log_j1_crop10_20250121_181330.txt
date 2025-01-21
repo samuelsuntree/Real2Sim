@@ -1,0 +1,157 @@
+[2025-01-21 18:13:30.653544] INFO: Starting Julia script.
+[2025-01-21 18:13:30.653544] CMD: julia Swimmer_Pipeline.jl 1 10 22.5
+
+[STDOUT]
+=======================================================================
+External a3 passed in:           22.5
+Internal duration (size(x,2)):   12.8
+Absolute difference:             9.7
+Relative difference:             43.11 %
+=======================================================================
+Start simulation...0.0Start simulation...
+tU/L=0.0, Δt=0.25
+tU/L=0.1, Δt=10.0
+tU/L=0.2, Δt=10.0
+tU/L=0.3, Δt=10.0
+tU/L=0.4, Δt=2.535
+tU/L=0.5, Δt=2.535
+tU/L=0.6, Δt=2.535
+tU/L=0.7, Δt=2.535
+tU/L=0.8, Δt=2.028
+tU/L=0.9, Δt=1.816
+tU/L=1.0, Δt=2.341
+tU/L=1.1, Δt=2.868
+tU/L=1.2, Δt=2.948
+tU/L=1.3, Δt=1.86
+tU/L=1.4, Δt=1.299
+tU/L=1.5, Δt=1.85
+tU/L=1.6, Δt=2.137
+tU/L=1.7, Δt=2.395
+tU/L=1.8, Δt=2.364
+tU/L=1.9, Δt=2.343
+tU/L=2.0, Δt=2.285
+tU/L=2.1, Δt=2.368
+tU/L=2.2, Δt=2.467
+tU/L=2.3, Δt=2.497
+tU/L=2.4, Δt=2.529
+tU/L=2.5, Δt=2.57
+tU/L=2.6, Δt=2.605
+tU/L=2.7, Δt=2.619
+tU/L=2.8, Δt=2.633
+tU/L=2.9, Δt=2.629
+tU/L=3.0, Δt=2.632
+tU/L=3.1, Δt=2.689
+tU/L=3.2, Δt=2.755
+tU/L=3.3, Δt=2.844
+tU/L=3.4, Δt=2.894
+tU/L=3.5, Δt=2.878
+tU/L=3.6, Δt=2.853
+tU/L=3.7, Δt=2.919
+tU/L=3.8, Δt=3.008
+tU/L=3.9, Δt=3.086
+tU/L=4.0, Δt=3.074
+tU/L=4.1, Δt=3.108
+tU/L=4.2, Δt=3.141
+tU/L=4.3, Δt=3.182
+tU/L=4.4, Δt=3.183
+tU/L=4.5, Δt=3.196
+tU/L=4.6, Δt=3.202
+tU/L=4.7, Δt=3.237
+tU/L=4.8, Δt=3.277
+tU/L=4.9, Δt=3.321
+tU/L=5.0, Δt=3.362
+tU/L=5.1, Δt=3.341
+tU/L=5.2, Δt=3.274
+tU/L=5.3, Δt=3.235
+tU/L=5.4, Δt=3.256
+tU/L=5.5, Δt=3.27
+tU/L=5.6, Δt=3.228
+tU/L=5.7, Δt=3.209
+tU/L=5.8, Δt=3.203
+tU/L=5.9, Δt=3.197
+tU/L=6.0, Δt=3.24
+tU/L=6.1, Δt=3.299
+tU/L=6.2, Δt=3.339
+tU/L=6.3, Δt=3.373
+tU/L=6.4, Δt=3.388
+tU/L=6.5, Δt=3.389
+tU/L=6.6, Δt=3.432
+tU/L=6.7, Δt=3.533
+tU/L=6.8, Δt=3.646
+tU/L=6.9, Δt=3.644
+tU/L=7.0, Δt=3.661
+tU/L=7.1, Δt=3.688
+tU/L=7.2, Δt=3.688
+tU/L=7.3, Δt=3.717
+tU/L=7.4, Δt=3.612
+tU/L=7.5, Δt=3.325
+tU/L=7.6, Δt=3.046
+tU/L=7.7, Δt=2.883
+tU/L=7.8, Δt=2.661
+tU/L=7.9, Δt=2.547
+tU/L=8.0, Δt=2.489
+tU/L=8.1, Δt=2.576
+tU/L=8.2, Δt=2.727
+tU/L=8.3, Δt=2.682
+tU/L=8.4, Δt=2.591
+tU/L=8.5, Δt=2.26
+tU/L=8.6, Δt=1.934
+tU/L=8.7, Δt=1.917
+tU/L=8.8, Δt=2.218
+tU/L=8.9, Δt=2.362
+tU/L=9.0, Δt=2.239
+tU/L=9.1, Δt=2.126
+tU/L=9.2, Δt=2.295
+tU/L=9.3, Δt=2.222
+tU/L=9.4, Δt=2.06
+tU/L=9.5, Δt=2.017
+tU/L=9.6, Δt=2.256
+tU/L=9.7, Δt=2.437
+tU/L=9.8, Δt=2.468
+tU/L=9.9, Δt=2.384
+tU/L=10.0, Δt=2.308
+tU/L=10.1, Δt=2.277
+tU/L=10.2, Δt=2.264
+tU/L=10.3, Δt=2.195
+tU/L=10.4, Δt=2.235
+tU/L=10.5, Δt=2.352
+tU/L=10.6, Δt=2.513
+tU/L=10.7, Δt=2.505
+tU/L=10.8, Δt=2.43
+tU/L=10.9, Δt=2.264
+tU/L=11.0, Δt=2.421
+tU/L=11.1, Δt=2.795
+tU/L=11.2, Δt=2.779
+tU/L=11.3, Δt=2.392
+tU/L=11.4, Δt=2.245
+tU/L=11.5, Δt=2.281
+tU/L=11.6, Δt=2.215
+tU/L=11.7, Δt=1.891
+tU/L=11.8, Δt=1.94
+tU/L=11.9, Δt=2.126
+tU/L=12.0, Δt=1.885
+tU/L=12.1, Δt=1.64
+tU/L=12.2, Δt=1.489
+tU/L=12.3, Δt=1.574
+tU/L=12.4, Δt=1.457
+tU/L=12.5, Δt=1.502
+tU/L=12.6, Δt=1.426
+tU/L=12.7, Δt=1.368
+tU/L=12.8, Δt=1.521
+
+[STDERR]
+The latest version of Julia in the `1.10` channel is 1.10.7+0.x64.w64.mingw32. You currently have `1.10.5+0.x64.w64.mingw32` installed. Run:
+
+  juliaup update
+
+in your terminal shell to install Julia 1.10.7+0.x64.w64.mingw32 and update the `1.10` channel to that version.
+┌ Warning: 
+│ Using WaterLily in serial (ie. JULIA_NUM_THREADS=1) is not recommended because it disables the GPU backend and defaults to serial CPU.
+│ Use JULIA_NUM_THREADS=auto, or any number of threads greater than 1, to allow multi-threading in CPU or GPU backends.
+└ @ WaterLily C:\Users\10521\.julia\packages\WaterLily\cb8Tk\src\WaterLily.jl:152
+┌ Warning: Warning: The difference exceeds 10%!
+└ @ Main C:\Users\10521\Documents\GitHub\Real2Sim\P2ResimSplit\Swimmer_Pipeline.jl:49
+WARNING: using Interpolations.scale in module Main conflicts with an existing identifier.
+[ Info: Saved animation to C:\Users\10521\AppData\Local\Temp\jl_G5KpGfqX0Z.gif
+
+[2025-01-21 18:14:39.526469] INFO: Finished successfully. Elapsed=68.87 seconds.

@@ -1,0 +1,268 @@
+[2025-01-21 21:03:34.089411] INFO: Starting Julia script.
+[2025-01-21 21:03:34.089411] CMD: julia Swimmer_Pipeline.jl 3 11 27.5
+
+[STDOUT]
+=======================================================================
+External a3 passed in:           27.5
+Internal duration (size(x,2)):   23.9
+Absolute difference:             3.6000000000000014
+Relative difference:             13.09 %
+=======================================================================
+Start simulation...0.0Start simulation...
+tU/L=0.0, Δt=0.25
+tU/L=0.1, Δt=10.0
+tU/L=0.2, Δt=10.0
+tU/L=0.3, Δt=10.0
+tU/L=0.4, Δt=10.0
+tU/L=0.5, Δt=10.0
+tU/L=0.6, Δt=10.0
+tU/L=0.7, Δt=10.0
+tU/L=0.8, Δt=10.0
+tU/L=0.9, Δt=10.0
+tU/L=1.0, Δt=10.0
+tU/L=1.1, Δt=10.0
+tU/L=1.2, Δt=10.0
+tU/L=1.3, Δt=2.032
+tU/L=1.4, Δt=2.032
+tU/L=1.5, Δt=2.032
+tU/L=1.6, Δt=0.983
+tU/L=1.7, Δt=1.742
+tU/L=1.8, Δt=1.893
+tU/L=1.9, Δt=2.143
+tU/L=2.0, Δt=2.084
+tU/L=2.1, Δt=1.53
+tU/L=2.2, Δt=1.572
+tU/L=2.3, Δt=1.664
+tU/L=2.4, Δt=1.747
+tU/L=2.5, Δt=1.445
+tU/L=2.6, Δt=1.665
+tU/L=2.7, Δt=1.963
+tU/L=2.8, Δt=2.169
+tU/L=2.9, Δt=1.999
+tU/L=3.0, Δt=1.261
+tU/L=3.1, Δt=1.369
+tU/L=3.2, Δt=1.585
+tU/L=3.3, Δt=1.738
+tU/L=3.4, Δt=1.933
+tU/L=3.5, Δt=2.089
+tU/L=3.6, Δt=2.019
+tU/L=3.7, Δt=2.07
+tU/L=3.8, Δt=2.126
+tU/L=3.9, Δt=2.082
+tU/L=4.0, Δt=2.026
+tU/L=4.1, Δt=2.004
+tU/L=4.2, Δt=2.001
+tU/L=4.3, Δt=1.947
+tU/L=4.4, Δt=1.852
+tU/L=4.5, Δt=1.675
+tU/L=4.6, Δt=1.478
+tU/L=4.7, Δt=1.612
+tU/L=4.8, Δt=1.79
+tU/L=4.9, Δt=1.998
+tU/L=5.0, Δt=1.884
+tU/L=5.1, Δt=1.844
+tU/L=5.2, Δt=1.852
+tU/L=5.3, Δt=1.808
+tU/L=5.4, Δt=1.776
+tU/L=5.5, Δt=1.774
+tU/L=5.6, Δt=1.777
+tU/L=5.7, Δt=1.728
+tU/L=5.8, Δt=1.767
+tU/L=5.9, Δt=1.763
+tU/L=6.0, Δt=1.784
+tU/L=6.1, Δt=1.862
+tU/L=6.2, Δt=1.9
+tU/L=6.3, Δt=1.903
+tU/L=6.4, Δt=1.899
+tU/L=6.5, Δt=1.917
+tU/L=6.6, Δt=1.853
+tU/L=6.7, Δt=1.784
+tU/L=6.8, Δt=1.877
+tU/L=6.9, Δt=1.761
+tU/L=7.0, Δt=1.902
+tU/L=7.1, Δt=1.925
+tU/L=7.2, Δt=1.954
+tU/L=7.3, Δt=1.918
+tU/L=7.4, Δt=1.921
+tU/L=7.5, Δt=1.915
+tU/L=7.6, Δt=1.71
+tU/L=7.7, Δt=1.619
+tU/L=7.8, Δt=1.598
+tU/L=7.9, Δt=1.629
+tU/L=8.0, Δt=1.71
+tU/L=8.1, Δt=1.797
+tU/L=8.2, Δt=1.844
+tU/L=8.3, Δt=1.611
+tU/L=8.4, Δt=1.634
+tU/L=8.5, Δt=1.603
+tU/L=8.6, Δt=1.517
+tU/L=8.7, Δt=1.576
+tU/L=8.8, Δt=1.656
+tU/L=8.9, Δt=1.585
+tU/L=9.0, Δt=1.608
+tU/L=9.1, Δt=1.663
+tU/L=9.2, Δt=1.684
+tU/L=9.3, Δt=1.697
+tU/L=9.4, Δt=1.694
+tU/L=9.5, Δt=1.69
+tU/L=9.6, Δt=1.694
+tU/L=9.7, Δt=1.812
+tU/L=9.8, Δt=1.906
+tU/L=9.9, Δt=1.534
+tU/L=10.0, Δt=1.613
+tU/L=10.1, Δt=1.751
+tU/L=10.2, Δt=1.702
+tU/L=10.3, Δt=1.616
+tU/L=10.4, Δt=1.597
+tU/L=10.5, Δt=1.583
+tU/L=10.6, Δt=1.607
+tU/L=10.7, Δt=1.624
+tU/L=10.8, Δt=1.671
+tU/L=10.9, Δt=1.725
+tU/L=11.0, Δt=1.666
+tU/L=11.1, Δt=1.68
+tU/L=11.2, Δt=1.668
+tU/L=11.3, Δt=1.733
+tU/L=11.4, Δt=1.716
+tU/L=11.5, Δt=1.601
+tU/L=11.6, Δt=1.554
+tU/L=11.7, Δt=1.55
+tU/L=11.8, Δt=1.598
+tU/L=11.9, Δt=1.639
+tU/L=12.0, Δt=1.689
+tU/L=12.1, Δt=1.76
+tU/L=12.2, Δt=1.764
+tU/L=12.3, Δt=1.761
+tU/L=12.4, Δt=1.795
+tU/L=12.5, Δt=1.926
+tU/L=12.6, Δt=1.862
+tU/L=12.7, Δt=1.814
+tU/L=12.8, Δt=1.813
+tU/L=12.9, Δt=1.772
+tU/L=13.0, Δt=1.718
+tU/L=13.1, Δt=1.756
+tU/L=13.2, Δt=1.738
+tU/L=13.3, Δt=1.814
+tU/L=13.4, Δt=1.851
+tU/L=13.5, Δt=1.771
+tU/L=13.6, Δt=1.663
+tU/L=13.7, Δt=1.678
+tU/L=13.8, Δt=1.66
+tU/L=13.9, Δt=1.618
+tU/L=14.0, Δt=1.609
+tU/L=14.1, Δt=1.586
+tU/L=14.2, Δt=1.616
+tU/L=14.3, Δt=1.624
+tU/L=14.4, Δt=1.654
+tU/L=14.5, Δt=1.674
+tU/L=14.6, Δt=1.653
+tU/L=14.7, Δt=1.629
+tU/L=14.8, Δt=1.579
+tU/L=14.9, Δt=1.596
+tU/L=15.0, Δt=1.631
+tU/L=15.1, Δt=1.717
+tU/L=15.2, Δt=1.803
+tU/L=15.3, Δt=1.854
+tU/L=15.4, Δt=1.868
+tU/L=15.5, Δt=1.845
+tU/L=15.6, Δt=1.736
+tU/L=15.7, Δt=1.718
+tU/L=15.8, Δt=1.785
+tU/L=15.9, Δt=1.839
+tU/L=16.0, Δt=1.858
+tU/L=16.1, Δt=1.912
+tU/L=16.2, Δt=1.863
+tU/L=16.3, Δt=1.913
+tU/L=16.4, Δt=1.913
+tU/L=16.5, Δt=1.733
+tU/L=16.6, Δt=1.684
+tU/L=16.7, Δt=1.7
+tU/L=16.8, Δt=1.705
+tU/L=16.9, Δt=1.682
+tU/L=17.0, Δt=1.664
+tU/L=17.1, Δt=1.664
+tU/L=17.2, Δt=1.625
+tU/L=17.3, Δt=1.578
+tU/L=17.4, Δt=1.564
+tU/L=17.5, Δt=1.572
+tU/L=17.6, Δt=1.577
+tU/L=17.7, Δt=1.573
+tU/L=17.8, Δt=1.628
+tU/L=17.9, Δt=1.174
+tU/L=18.0, Δt=1.006
+tU/L=18.1, Δt=1.045
+tU/L=18.2, Δt=1.122
+tU/L=18.3, Δt=1.105
+tU/L=18.4, Δt=1.09
+tU/L=18.5, Δt=1.056
+tU/L=18.6, Δt=1.032
+tU/L=18.7, Δt=1.032
+tU/L=18.8, Δt=1.039
+tU/L=18.9, Δt=1.067
+tU/L=19.0, Δt=1.096
+tU/L=19.1, Δt=1.124
+tU/L=19.2, Δt=1.123
+tU/L=19.3, Δt=1.139
+tU/L=19.4, Δt=1.151
+tU/L=19.5, Δt=1.161
+tU/L=19.6, Δt=1.168
+tU/L=19.7, Δt=1.154
+tU/L=19.8, Δt=1.15
+tU/L=19.9, Δt=1.124
+tU/L=20.0, Δt=1.105
+tU/L=20.1, Δt=1.097
+tU/L=20.2, Δt=1.108
+tU/L=20.3, Δt=1.123
+tU/L=20.4, Δt=1.139
+tU/L=20.5, Δt=1.155
+tU/L=20.6, Δt=1.167
+tU/L=20.7, Δt=1.168
+tU/L=20.8, Δt=1.165
+tU/L=20.9, Δt=1.165
+tU/L=21.0, Δt=1.172
+tU/L=21.1, Δt=1.178
+tU/L=21.2, Δt=1.2
+tU/L=21.3, Δt=1.209
+tU/L=21.4, Δt=1.221
+tU/L=21.5, Δt=1.236
+tU/L=21.6, Δt=1.248
+tU/L=21.7, Δt=1.265
+tU/L=21.8, Δt=1.277
+tU/L=21.9, Δt=1.286
+tU/L=22.0, Δt=1.301
+tU/L=22.1, Δt=1.309
+tU/L=22.2, Δt=1.317
+tU/L=22.3, Δt=1.331
+tU/L=22.4, Δt=1.336
+tU/L=22.5, Δt=1.348
+tU/L=22.6, Δt=1.357
+tU/L=22.7, Δt=1.363
+tU/L=22.8, Δt=1.376
+tU/L=22.9, Δt=1.383
+tU/L=23.0, Δt=1.392
+tU/L=23.1, Δt=1.405
+tU/L=23.2, Δt=1.411
+tU/L=23.3, Δt=1.421
+tU/L=23.4, Δt=1.426
+tU/L=23.5, Δt=1.437
+tU/L=23.6, Δt=1.447
+tU/L=23.7, Δt=1.452
+tU/L=23.8, Δt=1.462
+tU/L=23.9, Δt=1.472
+
+[STDERR]
+The latest version of Julia in the `1.10` channel is 1.10.7+0.x64.w64.mingw32. You currently have `1.10.5+0.x64.w64.mingw32` installed. Run:
+
+  juliaup update
+
+in your terminal shell to install Julia 1.10.7+0.x64.w64.mingw32 and update the `1.10` channel to that version.
+┌ Warning: 
+│ Using WaterLily in serial (ie. JULIA_NUM_THREADS=1) is not recommended because it disables the GPU backend and defaults to serial CPU.
+│ Use JULIA_NUM_THREADS=auto, or any number of threads greater than 1, to allow multi-threading in CPU or GPU backends.
+└ @ WaterLily C:\Users\10521\.julia\packages\WaterLily\cb8Tk\src\WaterLily.jl:152
+┌ Warning: Warning: The difference exceeds 10%!
+└ @ Main C:\Users\10521\Documents\GitHub\Real2Sim\P2ResimSplit\Swimmer_Pipeline.jl:49
+WARNING: using Interpolations.scale in module Main conflicts with an existing identifier.
+[ Info: Saved animation to C:\Users\10521\AppData\Local\Temp\jl_nMJqJM7exY.gif
+
+[2025-01-21 21:05:37.164516] INFO: Finished successfully. Elapsed=123.08 seconds.

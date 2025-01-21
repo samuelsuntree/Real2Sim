@@ -1,0 +1,2 @@
+[2025-01-21 17:05:44.582497] INFO: Starting Julia script.
+[2025-01-21 17:05:44.582497] CMD: julia Swimmer_Pipeline.jl 1 4 50.0

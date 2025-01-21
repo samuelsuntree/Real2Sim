@@ -1,4 +1,7 @@
 # Ignore virtual environment folder
 venv/
-input_files/*.mp4
-input_files/output_clip
+P1VideoCapture/input_files/*.mp4
+P1VideoCapture/input_files/output_clip
+P1VideoCapture/output_files/**/*.npy
+P1VideoCapture/output_files/**/*.png
+P2ResimSplit/Simu_result/**/*.vti
